@@ -5,5 +5,10 @@ angular.module('highways').controller('SawgrassCtrl', function ($scope) {
     "Florida, extending north from a junction of Interstate 75 (SR 93), Interstate 595 (SR 862) in Sunrise," +
     "to Coral Springs before heading eastward towards Florida's Turnpike and intersecting Interstate 95 before" +
     "terminating at Southwest 6th Avenue in Deerfield Beach."
+    $scope.urlOne = '#!/taconic';
+    $scope.btnOne = 'The Taconic Parkway';
+    $scope.urlTwo = '/';
+    $scope.btnTwo = 'Go Home';
 
+    
 })

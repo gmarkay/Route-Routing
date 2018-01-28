@@ -3,6 +3,10 @@
 angular.module('highways', ['ngRoute'])
   .config($routeProvider => {
     $routeProvider
+      .when('/', {
+        templateUrl:'../partials/landing.html',
+        controller: 'LandingCtrl'
+      })
       .when("/taconic", {
         templateUrl: '../partials/taconic.html',
         controller: 'TaconicCtrl'

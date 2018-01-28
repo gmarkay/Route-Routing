@@ -8,4 +8,8 @@ angular.module('highways').controller('TaconicCtrl', function ($scope) {
     "and Chatham the longest parkway in the U.S. state of New York.It follows a generally northward route midway" +
     "between the Hudson River and the Connecticut and Massachusetts state lines, along the Taconic Mountains.";
 
+    $scope.urlOne = '#!/sawgrass';
+    $scope.btnOne = 'The Sawgrass Expressway';
+    $scope.urlTwo = '/';
+    $scope.btnTwo = 'Go Home';
 });
